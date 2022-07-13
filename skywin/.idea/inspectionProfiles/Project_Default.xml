@@ -1,0 +1,53 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="PyPackageRequirementsInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredPackages">
+        <value>
+          <list size="1">
+            <item index="0" class="java.lang.String" itemvalue="mysqlclient" />
+          </list>
+        </value>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyPep8Inspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredErrors">
+        <list>
+          <option value="E501" />
+          <option value="W605" />
+          <option value="E265" />
+          <option value="E302" />
+          <option value="E303" />
+          <option value="E225" />
+          <option value="E261" />
+          <option value="E262" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyPep8NamingInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredErrors">
+        <list>
+          <option value="N802" />
+          <option value="N806" />
+          <option value="N803" />
+          <option value="N801" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="utils.app_constants" />
+          <option value="str.get_database" />
+          <option value="test.db_client" />
+          <option value="skywinAPI.skywinAPI.serialization.Createconsumeapi" />
+          <option value="rest_framework.serializersrs" />
+          <option value="skywinAPI.login.views.lg_pg" />
+          <option value="skywin.loginpage.views.loginpage" />
+          <option value="paho.mqtt.client.Client.loop_end" />
+          <option value="loginsystem.loginsystem.urls.login" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>
